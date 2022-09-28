@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 39, 184);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#principal{
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  width: auto;
+  max-width: 300px;
+  height: 400px;
+  max-height: 400px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+h4 {
+  padding: 0;
+  margin:0;
+  margin-bottom: 10px;
+}
+
+#senha {
+  margin-top: 10px
+}
+
+#fim a{
+  color: black
+}
+
+ion-icon {
+  font-size: 32px;
+}
+
+ion-icon:active {
+  color: rgb(13, 13, 136);
+}
+
+input[type=button]{
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(39, 39, 184);
+  color: white;  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+  border-radius: 4px;
+}
+
+input[type=button]:active{
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  height: 30px;
+  box-shadow: 5px 5px 10px rgba(78, 78, 78, 0.555);
+  background-color: rgb(13, 13, 136);
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+input[type=text]{
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 200px;
+  height: 25px;
+}
+input[type=password]{
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 200px;
+  height: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color:rgb(59, 9, 138);
+}
+
+footer {
+  text-align: center;
+}
