@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(39, 39, 184);
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif !important;
 }
 
 #principal{
@@ -14,6 +14,7 @@ body {
   height: 400px;
   max-height: 400px;
   margin: auto;
+  margin-top: 40px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
 }
 
@@ -29,22 +30,44 @@ h4 {
   margin-bottom: 10px;
 }
 
+#esqueceu {
+  margin-top: 8px;
+}
+
 #senha {
   margin-top: 10px
 }
 
-#fim a{
+#outros-login a{
   color: black
+}
+
+#outros-login h5 {
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 ion-icon {
   font-size: 32px;
 }
-
+/*
 ion-icon:active {
   color: rgb(13, 13, 136);
 }
+*/
+#logo-google:active{
+  color:#db4a39;
+}
 
+#logo-twitter:active {
+  color: #00acee;
+}
+
+#logo-facebook:active {
+  color: #3b5998;
+}
+
+/*BOTAO LOGIN*/
 input[type=button]{
   text-decoration: none;
   border: none;
@@ -55,7 +78,6 @@ input[type=button]{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
   border-radius: 4px;
 }
-
 input[type=button]:active{
   text-decoration: none;
   border: none;
@@ -66,6 +88,7 @@ input[type=button]:active{
   color: rgb(0, 0, 0);
   border-radius: 4px;
 }
+/*FIM BOTAO LOGIN*/
 
 input[type=text]{
   text-decoration: none;
@@ -82,11 +105,12 @@ input[type=password]{
   height: 25px;
 }
 
+/*RODAPE*/
 footer a {
   text-decoration: none;
-  color:rgb(59, 9, 138);
+  color: #1aa260;
 }
-
 footer {
   text-align: center;
 }
+/*FIM RODAPE*/
