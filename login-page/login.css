@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(39, 39, 184);
+  background-color: #0559F7;
   font-family:Arial, Helvetica, sans-serif !important;
 }
 
 #principal{
   border-radius: 10px;
   text-align: center;
+  padding:10px;
   background-color: white;
   width: auto;
   max-width: 300px;
@@ -73,7 +74,7 @@ input[type=button]{
   border: none;
   width: 100px;
   height: 30px;
-  background-color: rgb(39, 39, 184);
+  background-color: #0559F7;
   color: white;  
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
   border-radius: 4px;
@@ -84,7 +85,7 @@ input[type=button]:active{
   width: 100px;
   height: 30px;
   box-shadow: 5px 5px 10px rgba(78, 78, 78, 0.555);
-  background-color: rgb(13, 13, 136);
+  background-color: #071AE0;
   color: rgb(0, 0, 0);
   border-radius: 4px;
 }
@@ -108,9 +109,10 @@ input[type=password]{
 /*RODAPE*/
 footer a {
   text-decoration: none;
-  color: #1aa260;
+  color: #F7AB05;
 }
 footer {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
 }
 /*FIM RODAPE*/
