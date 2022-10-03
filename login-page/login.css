@@ -69,27 +69,27 @@ ion-icon:active {
 }
 
 /*BOTAO LOGIN*/
-input[type=button]{
-  text-decoration: none;
-  border: none;
-  width: 100px;
-  height: 30px;
+#entrar-button {
   background-color: #0559F7;
-  color: white;  
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
-  border-radius: 4px;
-}
-input[type=button]:active{
-  text-decoration: none;
   border: none;
   width: 100px;
   height: 30px;
   box-shadow: 5px 5px 10px rgba(78, 78, 78, 0.555);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+#entrar-button:active {
   background-color: #071AE0;
+  border: none;
+  width: 100px;
+  height: 30px;
+  box-shadow: 5px 5px 10px rgba(78, 78, 78, 0.555);
   color: rgb(0, 0, 0);
   border-radius: 4px;
 }
 /*FIM BOTAO LOGIN*/
+
 
 input[type=text]{
   text-decoration: none;
