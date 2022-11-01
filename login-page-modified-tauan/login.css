@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0559F7;
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+/* essa classe container é para criar uma especie de caixa em volta dos seus elemantos, possibilitando que vc trabalhe com alinhamentos
+a esquerda e direita e fique algo bem estilizado */
+
+.container{
+  width: 40%;
+  position: absolute;
+  align-items: center;
+  justify-items: center;
+}
+
+#principal{
+  border-radius: 10px;
+  text-align: center;
+  padding:10px;
+  background-color: white;
+  /** Trabalhe com poscentagens, isso vai ajudar c a dar dinamismo para a responsividade do seu projeto */
+  width: 40%;
+  max-width: 40%;
+  height: 500px !important;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+ h4{
+  padding: 0;
+  margin:0;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  text-align: left;
+}
+/* Classes de alinhamento de pargem a direita  */
+
+.mr-2{
+  margin-right: 2%;
+}
+
+
+/* fim de classes de alinhamento */
+#esqueceu {
+  margin-top: 8px;
+}
+
+#senha {
+  margin-top: 10px
+}
+
+#outros-login a{
+  color: black
+}
+#outros-login a:hover{
+  color: #0559F7;
+}
+#outros-login h5 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.icon-login{
+  color:#0559F7;
+}
+ion-icon {
+  font-size: 32px;
+}
+/*
+ion-icon:active {
+  color: rgb(13, 13, 136);
+}
+*/
+#logo-google:active{
+  color:#db4a39;
+}
+
+#logo-twitter:active {
+  color: #00acee;
+}
+
+#logo-facebook:active {
+  color: #3b5998;
+}
+
+/*BOTAO LOGIN*/
+#entrar-button {
+  background-color: #0559F7;
+  border: none;
+  width: 150px;
+  height: 35px;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+#entrar-button:active {
+  background-color: #071AE0;
+  border: none;
+  width: 150px;
+  height: 35px;
+  border-radius: 4px;
+}
+/*FIM BOTAO LOGIN*/
+/* classe sempre serve para padrinizar algo para reunilização então, se precisar criar um botão, crie como classe e atribua o estilo
+essa classe abaixo é para textos de cor branca*/ 
+.text-white{
+  color:white;
+}
+
+input:required {
+  border: 1px dashed red;
+}
+input[type=email]{
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 80%;
+  height: 35px;
+  /* a  propriedade outline retira aquela borda preta indesejada deixando a caixa de texto mais elegante*/
+  outline: none;
+  /* Aqui quando eu atribuo o padding dentro da estilização do input do tipo text, colocando o primeiro como 0px, pois diz respeito a linha
+  e o segundo como 10 ou 15, basicamente estou dando um espaço como um "paragrado" antes de onde se começa o texto, isso da um estilo mais 
+  aprimorado ao seu input */
+  padding: 0px 15px;
+}
+input[type=password]{
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 80%;
+  height: 10%;
+  padding: 0px 15px;
+  height: 35px;
+  /* a  propriedade outline retira aquela borda preta indesejada deixando a caixa de texto mais elegante*/
+  outline: none;
+}
+
+/*RODAPE*/
+footer a {
+  text-decoration: none;
+  color: #F7AB05;
+}
+footer {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+/*FIM RODAPE*/
