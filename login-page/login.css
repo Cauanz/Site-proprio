@@ -74,16 +74,19 @@ ion-icon:active {
 }
 */
 
-#logo-google:active {
+#logo-google:hover {
   color:#db4a39;
+  transition-duration: 1s;
 }
 
-#logo-twitter:active {
+#logo-twitter:ahover{
   color: #00acee;
+  transition-duration: 1s;
 }
 
-#logo-facebook:active {
+#logo-facebook:ahover{
   color: #3b5998;
+  transition-duration: 1s;
 }
 /* =FIM ICONES= */
 
