@@ -1,3 +1,4 @@
+
 :root {
 	--cor0: #F7AB05;
 	--cor1: #08D5FF;
@@ -11,6 +12,7 @@
 	--font-android: 'Android', cursive;
  
  }
+
 
 * {
 	margin: 0;
@@ -33,23 +35,34 @@ body {
 }*/
 
 
+
+
+div#foto {
+	padding: 5px;
+}
+#foto-minha {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+
 nav {
 	background-color: var(--cor4);
 	padding: 15px 15px 10px 15px;
 	height: 90px;
 }
-
-ul {
+nav > ul {
 	list-style: none;
 	margin-top: 60px;
 }
 
-ul > li {
+nav > ul > li {
 	border-radius: 5px;
 	display: inline;
 }
 
-li a {
+nav > ul > li > a {
 	background-color: #002363;
 	text-decoration: none;
 	padding: 5px;
@@ -72,27 +85,87 @@ main {
 
 section {
 	margin-top: 0px;
-	border-radius: 0px 0px 10px 10px;
 	background-color: white;
 	width: auto;
 	height: 1000px;
 	text-align: justify;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
 }
-
+/* =INICIO SECTION1= */
 #section1 > h1 {
+	text-align: center;
+	font-family: var(--font-destaque);
+	font-size: 50px;
+	background-image: linear-gradient(to right, #1c2b3fa8, white);
+}
+
+section#section1 > p {
+	text-align: justify;
+	font-weight: bold;
+	padding: 3px;
+	font-family: var(--font-padrao);
+}
+
+section#section1 > p::first-letter {
+	text-transform: capitalize;
+}
+/* =FIM SECTION2= */
+
+
+/* ==COMEÇO SECTION 2== */
+section#section2 {
 	
 }
-/*
 
-#section2 {
-	background-color: white;
-	width: auto;
-	text-align: justify;
-	margin: 0 auto;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+section#section2 > h1 {
+	font-family: var(--font-destaque);
+	font-size: 80px;
+	text-align: center;
 }
-*/
+
+div#imagem-github {
+	padding: 8px;
+	height: 50%;
+	background-attachment: fixed;
+	background-image: url(../imagens/github1.png);
+}
+
+#section2 > p {
+	text-align: center;
+	font-family: var(--font-destaque);
+	font-size: 30px;
+}
+
+section#section2 > p > a {
+	text-decoration: none;
+	color: #1c2b3f;
+}
+
+div#divbotao {
+	margin: auto;
+	width: 100px;
+}
+
+div#divbotao > button > a {
+	color: #1c2b3f;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div#divbotao > button > a:hover {
+	color: #ced2d8;
+	text-decoration: none;
+}
+
+div#divbotao > button > a:active {
+	color: #1eaeda;
+	text-decoration: underline;
+}
+
+
+/* =FIM SECTION2== */
+
 footer {
 	text-align: center;
 }
