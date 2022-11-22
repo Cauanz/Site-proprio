@@ -178,7 +178,8 @@ th, td {
 }
 
 div#tabelas {
-	width: auto;
+	margin: 20px auto;
+	width: 100px;
 }
 
 /* =FIM SECTION2== */
