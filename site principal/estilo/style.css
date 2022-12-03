@@ -1,4 +1,8 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 :root {
 	--cor0: #F7AB05;
 	--cor1: #08D5FF;
@@ -163,6 +167,24 @@ div#divbotao > button > a:active {
 	text-decoration: underline;
 }
 
+table > thead > tr {
+	color: white;
+	background-color: rgb(112, 112, 112);
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px 20px 10px 20px;
+	border: 1px solid black ;
+}
+
+div#tabelas {
+	margin: 20px auto;
+	width: 100px;
+}
 
 /* =FIM SECTION2== */
 
