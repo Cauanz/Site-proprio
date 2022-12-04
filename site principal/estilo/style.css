@@ -164,23 +164,18 @@ div#divbotao > button > a:active {
 	text-decoration: underline;
 }
 
-table > thead > tr {
-	color: white;
-	background-color: rgb(112, 112, 112);
+#colunas {
+	display: flex;
+	justify-content: space-around;
 }
 
-table {
-	border-collapse: collapse;
-}
-
-th, td {
-	padding: 10px 20px 10px 20px;
-	border: 1px solid black ;
-}
-
-div#tabelas {
-	margin: 20px auto;
-	width: 100px;
+.windows {
+	margin-top: 30px;
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
 }
 
 /* == FIM SECTION2 == */
