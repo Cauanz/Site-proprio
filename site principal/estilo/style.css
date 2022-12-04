@@ -76,7 +76,6 @@ section {
 	width: 100%;
 	height: 1000px;
 	text-align: justify;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
 }
 
 
@@ -84,16 +83,22 @@ section {
 
 div#foto {
 	margin: auto;
+	background-size: cover;
 }
 #foto-minha {
 	width: 100%;
+}
+
+#section1 {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
 }
 
 #section1 > h1 {
 	text-align: center;
 	font-family: var(--font-destaque);
 	font-size: 50px;
-	background-image: linear-gradient(to top, #1c2b3fa8, white);
+	padding-top: 5px;
+	background-color: #0559F7;
 }
 
 section#section1 > p {
@@ -107,10 +112,10 @@ section#section1 > p::first-letter {
 	text-transform: capitalize;
 }
 
-/* =FIM SECTION2= */
+/* == FIM SECTION1 == */
 
 
-/* ==COMEÇO SECTION 2== */
+/* == COMEÇO SECTION 2 == */
 
 section#section2 > h1 {
 	font-family: var(--font-destaque);
@@ -129,6 +134,7 @@ div#imagem-github {
 	text-align: center;
 	font-family: var(--font-destaque);
 	font-size: 30px;
+	padding-top: 30px;
 }
 
 section#section2 > p > a {
@@ -177,7 +183,7 @@ div#tabelas {
 	width: 100px;
 }
 
-/* =FIM SECTION2== */
+/* == FIM SECTION2 == */
 
 footer {
 	text-align: center;
