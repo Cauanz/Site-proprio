@@ -165,6 +165,7 @@ div#divbotao > button > a:active {
 }
 
 #colunas {
+	height: 10vh;
 	display: flex;
 	justify-content: space-around;
 }
@@ -174,7 +175,7 @@ div#divbotao > button > a:active {
 	border: 1px solid black;
 	border-radius: 15px;
 	width: 200px;
-	height: 200px;
+	height: 70vh;
 	display: inline-block;
 }
 
