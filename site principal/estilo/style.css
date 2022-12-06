@@ -143,8 +143,9 @@ section#section2 > p > a {
 }
 
 div#divbotao {
-	margin: auto;
-	width: 100px;
+	/* margin: auto;
+	width: 100px; */
+	text-align: center;
 }
 
 div#divbotao > button > a {
@@ -165,22 +166,42 @@ div#divbotao > button > a:active {
 }
 
 #colunas {
-	height: 10vh;
+	margin-top: 30px;
 	display: flex;
 	justify-content: space-around;
 }
 
 .windows {
-	margin-top: 30px;
 	border: 1px solid black;
 	border-radius: 15px;
 	width: 200px;
-	height: 70vh;
+	height: 50vh;
 	display: inline-block;
+}
+
+#table1 {
+	background: url(../imagens/github1.png) fixed;
+	background-color: yellow;
+}
+
+#table2 {
+	background: url(../imagens/github1.png) fixed;
+	background-color: green;
+}
+
+#table3 {
+	background: url(../imagens/github1.png) fixed;
+	background-color: blue;
 }
 
 /* == FIM SECTION2 == */
 
 footer {
 	text-align: center;
+	background-color: var(--cor3);
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
 }
