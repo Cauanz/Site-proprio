@@ -86,8 +86,16 @@ div#foto {
 	background-size: cover;
 }
 #foto-minha {
+	display: inline-block;
 	width: 100%;
 }
+
+#formulario {
+	width: 50vw;
+	height: 30vh;
+}
+
+#formulat
 
 #section1 {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
