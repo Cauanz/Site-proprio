@@ -26,8 +26,54 @@ body {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
 }
 
+h1#login {
+  font-size: 2.4em;
+  margin-bottom: 0;
+}
+
 #principal > h4 {
   margin-top: 6%;
+}
+
+.field {
+  background-color: #0559F7;
+  border-radius: 7px;
+  height: 49px;
+}
+
+.field > label {
+  display: none;
+}
+
+.field > span {
+  color: white;
+  font-size: 2.3em;
+  width: 37px;
+  padding: 5px;
+}
+
+input[type=email]{
+  text-decoration: none;
+  border: 3px solid #0559F7;
+  border-radius: 7px;
+  width: calc(100% - 71px);
+  height: 40px;
+  font-size: .9em;
+  outline: none;
+  padding: 0px 0px 0px 10px;
+  transform: translateY(-11px);
+}
+
+input[type=password]{
+  text-decoration: none;
+  border: 3px solid #0559F7;
+  border-radius: 7px;
+  width: calc(100% - 71px);
+  height: 40px;
+  outline: none;
+  font-size: .9em;
+  padding: 0px 0px 0px 10px;
+  transform: translateY(-11px);
 }
 
 a {
@@ -114,25 +160,6 @@ ion-icon:active {
 }
 /*FIM BOTAO LOGIN*/
 
-
-input[type=email]{
-  text-decoration: none;
-  border: 1px solid grey;
-  border-radius: 4px;
-  width: 75%;
-  height: 32px;
-  outline: none;
-  padding: 0px 0px 0px 10px;
-}
-input[type=password]{
-  text-decoration: none;
-  border: 1px solid grey;
-  border-radius: 4px;
-  width: 75%;
-  height: 32px;
-  outline: none;
-  padding: 0px 0px 0px 10px;
-}
 
 /*RODAPE*/
 footer a {

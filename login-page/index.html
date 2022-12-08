@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LOGIN</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="login.css">
 </head>
 <body onload="onload()">
@@ -13,19 +14,38 @@
         
 
     <div id="principal">
+      
       <h1 id="login">ENTRAR</h1>
-
-
       <div class="container">
+
         <h4>Email</h4>
-        <form action method="post">
-          <input type="email" name="email" placeholder="email@example.com" id="emailtxt" required>
+
+        <form action="login.php" method="post" autocomplete="on">
+          
+          <div class="field">
+
+            <span class="material-icons">person</span>
+            <input type="email" name="email" placeholder="email@example.com" id="emailtxt" required autocomplete="email">
+            
+            <label for="emailtxt">Email</label>
+          </div>
+          
           <h4 id="senha">Senha</h4>
-          <input type="password" name="senha" placeholder="Senha..." id="senhatxt">
+          
+          <div class="field">
+            <span class="material-icons">vpn_key</span>
+            <input type="password" name="senha" placeholder="Senha..." id="senhatxt" required autocomplete="current-password">
+            
+            <label for="senhatxt">Senha</label>
+          </div>
+
           <p id="esqueceu"><a href="#">Esqueceu a senha?</a></p>
+          
           <button id="entrar-button">ENTRAR</button>
+            
             <div id="outros-login">
               <h5>Ou faça login usando:</h5>
+
                 <a href="#" class="icons">
                   <ion-icon  name="logo-google" id="logo-google"></ion-icon>
                 </a>
@@ -35,8 +55,9 @@
               <a href="#" class="icons">
                 <ion-icon name="logo-facebook" id="logo-facebook"></ion-icon>
               </a>
+
             </div>
-              </div>
+          </div>
         </form>
       </div>
 
